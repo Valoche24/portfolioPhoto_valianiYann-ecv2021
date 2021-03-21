@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "avaraBld";
+  src: url("fonts/Avara-Bold.woff") format("woff"),
+       url("fonts/Avara-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "avaraBlk";
+  src: url("fonts/Avara-Black.woff")format("woff"),
+       url("fonts/Avara-Black.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "terminalG";
+  src: url("fonts/terminal-grotesque-webfont.woff") format("woff"),
+       url("fonts/terminal-grotesque-webfont.ttf") format("ttf");
+}
+
+@import url("https://use.typekit.net/pod7mhz.css");
+
+
+body{
+  font-family: "terminalG", monospace;
+  color: white;
+  line-height: 1.5em;
+}
+
+#section-09, nav, footer {
+  line-height: 2em;
+}
+
+nav li{
+  font-size: 1.6em;
+  margin: 10px;
+}
+
+h1, h2, h3, h4{
+  color: orange;
+  font-family: "avaraBlk", monospace;
+}
+
+h1{
+  font-size: 2.8em;
+  line-height: 1.2em;
+}
+
+h3{
+  font-size: 2em;
+  margin-bottom: 1.3em;
+  margin-top: 1em;
+}
+
+h4{
+  font-size: 1.5em;
+  margin-bottom: 1.3em;
+}
+
+strong{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul{
+  font-family: "terminalG", serif;
+}
+
+em{
+  font-family: "sloop-script-two", serif;
+  font-size: 3em;
+  padding-right: 7px;
+}
+
+
+
+#section-01, p{
+  font-family: "terminalG", serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  font-size: 18px;
+}
+
+figure{
+  font-size: 400%;
+}
+
+
+/* ////////////////////////////////////////////////////  TRANSLATE :HOVER  //////////////////////////////////////////////////// */
+
+
+#section-01 ul.intro [lang=EN], #section-01 ul.intro li:hover span {
+    display:none;
+}
+#section-01 ul.intro li:hover [lang=EN] {
+    display:inline;
+}
